@@ -19,6 +19,7 @@ var addtohome = '{"icon": "https://xxx.xxx","prompt": "Add to home！","bottom":
 ```
 ## example
 ```
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <div class="addtohome"></div>
 <script>
 var addtohome = '{"icon": "https://xxx","prompt": "Add to home！","bottom": "60px","radius":"15px","explanation":"https://xxx"}' ;
