@@ -21,7 +21,7 @@ var addtohome = '{"icon": "https://xxx.xxx","prompt": "Add to home！","bottom":
 ```
 <div class="addtohome"></div>
 <script>
-var addtohome = '{"icon": "https://xxx.xxx","prompt": "Add to home！","bottom": "60px","radius":"15px","explanation":"https://xxx"}' ;
+var addtohome = '{"icon": "https://xxx","prompt": "Add to home！","bottom": "60px","radius":"15px","explanation":"https://xxx"}' ;
 </script>
 <script src="https://erichsia7.github.io/addtohome.js/1.0.0.js"></script>
 ```
