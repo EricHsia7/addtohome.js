@@ -26,6 +26,6 @@ var addtohome = '{"icon": "https://erichsia7.github.io/addtohome.js/example-icon
 </script>
 <script src="https://erichsia7.github.io/addtohome.js/1.0.0.js"></script>
 ```
-[Demo](https://erichsia7.github.io/addtohome.js/demo.html)
+[Demo](https://erichsia7.github.io/addtohome.js/demo.html#)
 
 ![example](https://erichsia7.github.io/addtohome.js/obJxVL3ZAOjwX3l19RKwJ2Xcx0ypBbEh.jpeg)
