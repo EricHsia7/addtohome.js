@@ -1,10 +1,13 @@
 # addtohome.js
 ## install
-
+JQuery
+```
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+```
+addtohome.js
 ```
 <script src="https://erichsia7.github.io/addtohome.js/1.0.0.js"></script>
 ```
-Paste the code above between body.
 ## use
 1. add .addtohome div
 ```
