@@ -1,0 +1,83 @@
+<meta charset="UTF-8">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+.tab {
+width:90%;
+height:45px;
+max-width:500px;
+min-width:200px;
+background:#fff;
+border-radius:10px;
+overflow:hidden;
+position: relative;
+box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.08);
+}
+.tabbtnbox {
+width:33%;
+height:100%;
+float: left;
+position: relative;
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tabbtnbox a {
+text-decoration:none;
+color:#333;
+width:calc(100% - 6px);
+height: calc(100% - 6px);
+border-radius:10px;
+background:#fff;
+transition:0.3s;
+outline:none; -webkit-tap-highlight-color:rgba(0,0,0,0);
+display: flex;
+  justify-content: center;
+  align-items: center;
+
+ font-family: 'Noto Sans TC', sans-serif;
+ font-weight:500;
+
+}
+</style>
+<div class="tab">
+<div class="tabbtnbox"><a href="javascript:ios()">iOS</a></div>
+
+<div class="tabbtnbox" style="margin-left:0.5%"> <a href="javascript:android()">Android</a></div>
+
+<div class="tabbtnbox" style="margin-left:0.5%"> <a href="javascript:computer()">電腦</a></div>
+
+</div>
+
+<script>
+function ios() {
+$('a').eq(0).css({'background':'#f2f2f2'});
+
+$('a').eq(1).css({'background':'#fff'});
+
+$('a').eq(2).css({'background':'#fff'});
+
+}
+
+function android() {
+$('a').eq(0).css({'background':'#fff'});
+
+$('a').eq(1).css({'background':'#f2f2f2'});
+
+$('a').eq(2).css({'background':'#fff'});
+
+}
+
+function computer() {
+$('a').eq(0).css({'background':'#fff'});
+
+$('a').eq(1).css({'background':'#fff'});
+
+$('a').eq(2).css({'background':'#f2f2f2'});
+
+}
+ios();
+</script>
