@@ -54,7 +54,7 @@ display: flex;
 
 </div>
 
-<iframe width="1920" height="1080" src="https://www.youtube.com/embed/2oQsbYmv0Cs?playlist=2oQsbYmv0Cs&loop=1&autoplay=1&mute=1&controls=0" frameborder="0"  id="indexvvvvvvvvvvvvvvvvvv"></iframe>
+<iframe width="1920" height="1080" src="https://www.youtube.com/embed/2oQsbYmv0Cs?playlist=2oQsbYmv0Cs&loop=1&autoplay=1&mute=1&controls=0" frameborder="0"  id="video"></iframe>
       <script>
 $(function() {
   if(typeof YOUTUBE_VIDEO_MARGIN == 'undefined') {
@@ -89,7 +89,7 @@ $('a').eq(0).css({'background':'#f2f2f2'});
 $('a').eq(1).css({'background':'#fff'});
 
 $('a').eq(2).css({'background':'#fff'});
-
+$('#video').attr('src','https://www.youtube.com/embed/2oQsbYmv0Cs?playlist=2oQsbYmv0Cs&loop=1&autoplay=1&mute=1&controls=0');
 }
 
 function android() {
@@ -98,7 +98,7 @@ $('a').eq(0).css({'background':'#fff'});
 $('a').eq(1).css({'background':'#f2f2f2'});
 
 $('a').eq(2).css({'background':'#fff'});
-
+  $('#video').attr('src','https://www.youtube.com/embed/XhZYL-1Prt8?playlist=XhZYL-1Prt8&loop=1&autoplay=1&mute=1&controls=0');
 }
 
 function computer() {
