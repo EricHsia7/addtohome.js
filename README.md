@@ -15,7 +15,7 @@ addtohome.js
 ```
 2. add script
 ```
-var addtohome = '{"icon": "https://xxx.xxx","prompt": "Add to home！","bottom": "60px","radius":"15px","explanation":"https://xxx"}' ;
+var addtohome = '{"icon": "https://erichsia7.github.io/addtohome.js/example-icon.png","prompt": "Add to home！","bottom": "60px","radius":"15px","explanation":"https://erichsia7.github.io/addtohome.js/default_explanation.html"}' ;
 ```
 ## example
 ```
