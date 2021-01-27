@@ -27,7 +27,7 @@ display: flex;
   justify-content: center;
   align-items: center;
 }
-.tabbtnbox a {
+.tabbtnbox div {
 text-decoration:none;
 color:#333;
 width:calc(100% - 6px);
@@ -48,11 +48,11 @@ display: flex;
 </style>
 <center>
 <div class="tab">
-<div class="tabbtnbox"><a href="javascript:ios()">iOS</a></div>
+<div class="tabbtnbox"><div href="javascript:ios()" id="ios">iOS</div></div>
 
-<div class="tabbtnbox" style="margin-left:0.5%"> <a href="javascript:android()">Android</a></div>
+<div class="tabbtnbox" style="margin-left:0.5%"> <div href="javascript:android()" id="android">Android</div></div>
 
-<div class="tabbtnbox" style="margin-left:0.5%"> <a href="javascript:computer()">電腦</a></div>
+<div class="tabbtnbox" style="margin-left:0.5%"> <div href="javascript:computer()" id="computer">電腦</div></div>
 
 </div>
 
@@ -86,6 +86,7 @@ $(function() {
 
 
 <script>
+  
 function ios() {
 $('a').eq(0).css({'background':'#f2f2f2'});
 
@@ -112,5 +113,14 @@ $('a').eq(1).css({'background':'#fff'});
 $('a').eq(2).css({'background':'#f2f2f2'});
   $('#video').attr('src','https://www.youtube.com/embed/TqGG3RQviV8?playlist=TqGG3RQviV8&loop=1&autoplay=1&mute=1&controls=0');
 }
-ios();
+  $('#ios').click(function() {
+    ios();
+  });
+  $('#android').click(function() {
+    andriod();
+  });
+  $('#computer').click(function() {
+    computer();
+  });
+  ios();
 </script>
