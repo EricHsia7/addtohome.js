@@ -19,7 +19,7 @@ function addtohomeexp(addtohomeurls) {
  eee = 0 ;
  }
  else {
- $('.exp,.close,.addtohome img,.addtohome span,.addtohome').attr('style','transition:0.5s');
+ $('.exp,.close,.addtohome img,.addtohome span,.addtohome').attr('style','transition: opacity 0.5s');
  $('.addtohome span').html(obj.prompt);
  eee = 1 ;
  }
